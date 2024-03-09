@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gameContainer {
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  text-shadow: -2px 0px 12px black;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(3, 10vw);
+  grid-template-columns: repeat(3, 10vw);
+}
+.box {
+  border: 2px solid black;
+  font-size: 8vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box:hover {
+  background-color: aquamarine;
+}
+.gameInfo {
+  padding: 0 34px;
+}
+#h1{
+  b
+}
